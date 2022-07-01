@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+@font-face {
+    font-family: 'JuliusSansOne';
+    src: url('/Fonts/JuliusSansOne-Regular.ttf') format('truetype')
+}
+
+
+.top{
+    background-color: #c0a897;
+    height: 2.5em;
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    max-width: 100%;
+    padding: 0.25em 0.5em;
+    text-align: left;
+}
+
+.bar1{
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    max-width: 100%;
+    padding: 0.25em 1em;
+    text-align: left;
+    background: #c0a897;
+    color: #fff;
+}
+
+.bar1 span{
+    color: white;
+    font-family: JuliusSansOne;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.bar1 img{
+    height: 15px;
+    margin-right: 10px;
+}
+
+.bar2{
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    max-width: 100%;
+    padding: 0.25em 1em;
+    text-align: left;
+    background: #c0a897;
+    color: #fff;
+}
+
+.bar2 span{
+    color: white;
+    font-family: JuliusSansOne;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.bar2 img{
+    height: 15px;
+    margin-right: 10px;
+}
+
+.bar3{
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    max-width: 100%;
+    padding: 0.25em 1em;
+    text-align: left;
+    background: #c0a897;
+    color: #fff;
+}
+
+.bar3 span{
+    color: white;
+    font-family: JuliusSansOne;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.bar3 img{
+    height: 15px;
+    margin-right: 10px;
+}
+
+.banner{
+     width: 100%;
+     position: relative;
+     left: 45%;
+     right: 55%;
+     top: 90;
+}
+
+
