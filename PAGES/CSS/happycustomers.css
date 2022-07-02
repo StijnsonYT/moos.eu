@@ -98,12 +98,12 @@
     margin-right: 10px;
 }
 
-.banner img{
-     width: 180;
+.banner{
+     width: 100%;
      position: relative;
-     left: 50%;
-     right: 50%;
-     top: 60;
+     left: 45%;
+     right: 55%;
+     top: 90;
 }
 
 

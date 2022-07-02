@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+@font-face {
+    font-family: 'JuliusSansOne';
+    src: url('Fonts/JuliusSansOne-Regular.ttf') format('truetype')
+}
+
+
+.navbar{
+    margin-left: 17%;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    padding: 10px 13px;
+    transition: 0.5s;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: none;
+    font-family: 'JuliusSansOne';
+}
+
+.active, .navbar ul li:hover{
+    background: #c0a897;
+    border-radius: 5px;
+}
+
+.test, .navbar ul li a:hover{
+    color: white;
+}
+
+
+.sub-navbar-1{
+    display: none;
+}
+
+.navbar ul li:hover .sub-navbar-1{
+    display: block;
+    position: absolute;
+    background: #ececec;
+    color: black;
+    margin-top: 11px;
+    margin-left: -50%;
+    transition: 00.5s;
+}
+
+.navbar ul li:hover .sub-navbar-1 ul{
+    display: block;
+    margin: 1px;
+}
+
+.navbar ul li:hover .sub-navbar-1 ul li{
+    width: 220px;
+    padding: 10px;
+    border-bottom: 1px double #fff;
+    background:  transparent;
+    text-align: left;
+}
+
+.navbar ul li:hover .sub-navbar-1 ul li:last-child{
+    border-bottom: none;
+}
+
+
+.active2, .navbar ul li:hover .sub-navbar-1 ul li:hover{
+    background: #a1a1a1;
+}
+
+.active2, .navbar ul li a :hover .sub-navbar-1 ul li :hover{
+   color: #fff;
+}
