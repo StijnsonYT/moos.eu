@@ -41,7 +41,7 @@
     border-radius: 3px;
 }
 
-.test, .navbar ul li a:hover{
+.active .navbar ul li a:hover{
     color: white;
 }
 
